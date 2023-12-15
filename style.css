@@ -1,0 +1,74 @@
+:root {
+  --backgroung-color: #1c1c1c;
+  --container-background-color: #1f2937;
+  --primary-font-color: #ffffff;
+  --secondary-font-color: #4adf86;
+  --box-color: #273549;
+  --hr-color: #2f3e53;
+}
+body {
+  margin: 0;
+  background: var(--backgroung-color);
+  font-family: "Karla";
+}
+.container {
+  background: var(--container-background-color);
+  width: 550px;
+  height: 550px;
+  margin: 64px auto;
+}
+.container .heading {
+  color: var(--primary-font-color);
+  padding-top: 115px;
+  margin: 0 0 -5px 40px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+}
+.container .sub-heading {
+  color: var(--secondary-font-color);
+  padding-top: -1rem;
+  margin: 0 0 -15px 40px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+}
+.container .description {
+  color: var(--primary-font-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 40px;
+}
+button {
+  background: var(--secondary-font-color);
+  color: var(--primary-font-color);
+  padding: 5px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 40px;
+}
+hr {
+  border: 1px solid var(--hr-color);
+  margin: 40px 40px 10px 40px;
+}
+.result-para {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.result {
+  width: 211px;
+  height: 39px;
+  background: var(--box-color);
+  border-radius: 5px;
+  color: var(--secondary-font-color);
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+}
